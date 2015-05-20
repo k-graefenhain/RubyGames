@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<title>Number guessing game</title>
+
+<body>
+	<article>
+		<header>
+			<h1>Number guessing game</h1>
+			<p>I'm thinking of a random number from 1 to 100. Can you guess it?</p>
+		</header>
+
+		<form action="/number_guessing/" method="POST" oninput="submit">
+      Guess: <input type="number" name="guess" id="guess">
+      <br />
+      <br />
+      Result: <output name="result" id="result" for="guess"><%= result %></output>
+      <br />
+      It took you <%= num_guesses %> guesses.
+    </form>
+
+    <footer>
+      <p>Rails Girls Zurich</p>
+    </footer>
+  </article>
+</body>
+</html>
