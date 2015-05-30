@@ -6,7 +6,7 @@ num_guesses = 0
 
 loop do
 	print "What is your guess? "
-	guess = gets.chomp.to_i	
+	guess = gets.chomp.to_i
 	num_guesses += 1
 
 	unless guess == number

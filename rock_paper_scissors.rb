@@ -28,7 +28,7 @@ def generate_computer_choice
 		return "rock"
 	elsif (0.34 < computer_choice && computer_choice < 0.66) then
 		return "paper"
-	else 
+	else
 		return "scissors"
 	end
 end

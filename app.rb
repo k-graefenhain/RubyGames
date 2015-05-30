@@ -6,7 +6,7 @@ set :public_folder, "static"
 set :views, "views"
 
 get '/' do
-    return 'Hello world'
+  return 'Hello world'
 end
 
 number = rand(1..100)
