@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<title>Number guessing game</title>
+
+<body>
+	<article>
+		<header>
+			<h1>Currency Converter</h1>
+			<p>Enter your amount in CHF and the target currency</p>
+		</header>
+
+		<form action="/convert/" method="POST" oninput="submit">
+      Amount: <input type="number" name="amount_chf" id="amount_chf">
+      <br />
+      Target currency: <input type="text" name="target" id="target">
+      <br />
+      <input type="submit" value="Submit">
+      <br />
+      Result: <output name="result" id="result" for="amount_chf"><%= result %></output>
+    </form>
+
+    <footer>
+      <p>rubymonstas.ch</p>
+    </footer>
+  </article>
+</body>
+</html>
